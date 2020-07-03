@@ -1,6 +1,6 @@
 How to setup the project:
 
-1. Please download the file from the git repo here .....
+1. Please download the file from the git repo here git@github.com:alitareque/rego.git
 2. The folder rego contains all the files to run this project
 3. This project is built in PHP with MySQL database
 3. Please create a website with the rego folder as the root directory
