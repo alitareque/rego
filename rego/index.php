@@ -40,8 +40,8 @@
     <h4>Database setup</h4>
     <ul>
         <li>Create a database named <b>registrations</b>.</li>
-        <li>Please import the registrations.sql dump file into the registrations database.</li>
-        <li>Please go to the file <b>rego/config/database.php</b>. And update the database connection credentials.</li>
+        <li>Please import the <b>rego/registrations.sql</b> dump file into the registrations database.</li>
+        <li>Please go to the file <b>rego/src/database.php</b>. And update the database connection credentials.</li>
     </ul>
 </section>
 <section>
