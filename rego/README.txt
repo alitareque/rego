@@ -4,7 +4,7 @@ How to setup the project:
 2. The folder rego contains all the files to run this project
 3. This project is built in PHP with MySQL database
 3. Please create a website with the rego folder as the root directory
-4. Please name the loal host server as rego
+4. Please name the localhost server as rego
 4. For the databse, please create a database named registrations in MySQL server
 5. Import the data into the registrations database from the registrations.sql file
 6. The command to take a import is 
@@ -14,3 +14,8 @@ How to setup the project:
 9. So, basically if the server name is set to rego, then the path to the locally hosted server will be http://rego
 10. Please change the database connection information on file located at rego/src/database.php
 10. Finally, type the address http://rego on a browser's address bar
+11. To test the test using PHPUnit test just go to the rego folder using commandline and run the following commands: 
+	composer install
+	composer dump-autoload
+	./vendor/bin/phpunit tests
+12. I have only written the test to check that the database returns results.
