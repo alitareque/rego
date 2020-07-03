@@ -26,9 +26,9 @@
             <li>You may use either Java, Swift, Kotlin, <b>PHP</b></li>
             <li>You may use Node.js if you like, but we prefer this task in an <b>Object Oriented</b> language as above.</li>
             <li>You are allowed to use third party libraries if you wish</li>
-            <li>Please provide any supporting documentation to run the application</li>
-            <li>Please use git for source control</li>
-            <li>Please add unit tests where you believe needs coverage</li>
+            <li><b>Please provide any supporting documentation to run the application</b></li>
+            <li><b>Please use git for source control</b></li>
+            <li><b>Please add unit tests where you believe needs coverage</b></li>
             <li>We are looking for clean and well structured code</li>
             <li>You can spend as long as you like on this task, but we recommend ~3 hours.</li>
         </ul>
@@ -58,6 +58,20 @@
             </ul>
         </li>
     </ul>
+</section>
+<section>
+    <h3>PHPUnit Test</h3>
+    <ul>
+        <li>From the project rego folder, run the following scripts:
+            <ul>
+                <li>composer install</li>
+                <li>composer dump-autoload</li>
+                <li>./vendor/bin/phpunit tests</li>
+            </ul>
+        </li>
+        <li>The test just checks that a result is fetched when user id is passed</li>
+    </ul>
+
 </section>
 
 </body>
